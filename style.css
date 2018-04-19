@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Ariel, Helvetica;
+  color: #333;
+  font-size: 13px;
+}
+
+input {
+  width: 480px;
+  height: 42px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 4px 2px #e3e3e3;
+  border: 0.6px solid #d6d6d6;
+  border-radius: 3px;
+}
+
+#page {
+  height: 100%;
+}
+
+#nav {
+  height: 40px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #222;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#nav a img {
+  vertical-align: middle;
+}
+
+#margin {
+  margin-top: 140px;
+  text-align: center;
+  height: 120px;
+}
+
+.center {
+  margin: auto 0;
+  text-align: center;
+}
+
+#search {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#input_container {
+  position: relative;
+  background: #ddd;
+  direction: ltr;
+}
+#input {
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+#input_img {
+  position: absolute;
+  bottom: 10px;
+  right: -15px;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+#buttons {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.button {
+  color: #757575;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  width: 200px;
+  border: 0.5px solid #f4f4f4;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 0px #fff;
+}
+
+.button:hover {
+  border: 0.5px solid #aaa;
+  color: #222;
+}
+
+#footer {
+  height: 40px;
+  line-height: 40px;
+
+  background-color: #eeeeee;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border-top: 1px solid #ddd;
+}
+
+#bottom-nav {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottom-nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+#bottom-nav a:hover {
+  text-decoration: underline;
+}
